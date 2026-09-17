@@ -1,0 +1,15 @@
+windows-folder.svg: File folder (Color), Microsoft Fluent Emoji.
+Copyright Microsoft Corporation. MIT License; see microsoft-fluent-emoji.txt.
+Source: https://github.com/microsoft/fluentui-emoji/blob/main/assets/File%20folder/Color/file_folder_color.svg
+usb-white-textured.png: generated product photograph for this site.
+
+all-in-one.png: generated product image, composited with a 16:9 desktop.
+windows11-bloom.jpg: original Windows 11 Bloom wallpaper, Microsoft.
+Official provenance: https://news.microsoft.com/windows11-general-availability/
+Source mirror: https://github.com/viridivn/windows11wallpapers/blob/master/Windows/img0.jpg
+this-pc.png and recycle-bin.png: native Windows icon resources, Microsoft.
+Source: https://github.com/HaydenReeve/WindowsIcons
+The taskbar uses the original user-supplied Windows desktop screenshot (screens/notification.png).
+
+all-in-one-neutral.png: generated unbranded all-in-one product image based on the user-supplied monitor reference.
+usb-white-compact.png: generated compact white USB product image based on the user-supplied side-view reference.
