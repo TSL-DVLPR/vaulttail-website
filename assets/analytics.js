@@ -105,7 +105,12 @@
     if (previousFocus && document.contains(previousFocus)) previousFocus.focus();
   }
   function init() {
-    if (!enabled) return;
+    if (!enabled) {
+      clearAnalyticsCookies();
+      try { localStorage.removeItem(key); } catch (_) {}
+      delete document.documentElement.dataset.analyticsEnabled;
+      return;
+    }
     state = readChoice();
     banner = document.createElement('section');
     banner.className = 'analytics-banner'; banner.setAttribute('aria-label', 'Optional website analytics');
