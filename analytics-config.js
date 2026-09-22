@@ -1,8 +1,6 @@
-// Public website identifiers, NOT passwords or API secrets.
-// Google Analytics: Admin > Data streams > Web > Measurement ID (G-...).
-// Microsoft Clarity: Project > Settings > Setup > ID in clarity.ms/tag/....
-// Empty values keep the optional services disabled.
+// Optional Google Analytics and Microsoft Clarity are disabled.
+// Empty identifiers prevent vendor scripts, event collection, and the consent banner.
 window.VAULTTAIL_ANALYTICS = Object.freeze({
-  ga4MeasurementId: "G-3LM3HJ81YH",
-  clarityProjectId: "yl4djvtkic",
+  ga4MeasurementId: "",
+  clarityProjectId: "",
 });
